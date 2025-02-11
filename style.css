@@ -1,0 +1,64 @@
+
+body{
+    background-color:lightskyblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2%;
+    padding: 0%;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+header.logo{
+    font-size: 202px;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:15px;
+}
+
+nav ul li a{
+    color:aliceblue;
+    text-decoration:none;
+}
+
+section{
+    padding: 10px;
+
+}
+
+#home{
+    background-color:grey;
+    text-align: center;
+}
+
+#about, #services, #contact{
+    margin-top: 10px;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+padding: 20px;
+}
+
+footer.column{
+    width: 30px;
+}
+
+footer a{
+    color:blue;
+    text-decoration:none;
+}
